@@ -16,7 +16,7 @@ open class Ucapan {
         print("Selamat Belajar Baim")
     }
 }
-class Selamat: Ucapan(){
+class Selamat: Ucapan(){ // pewarisan terjadi menggunakan konstruktor default
 }
 fun main() {
     var  view = Selamat()
