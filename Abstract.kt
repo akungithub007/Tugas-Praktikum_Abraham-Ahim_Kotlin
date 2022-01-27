@@ -1,5 +1,15 @@
 package TugasPraktikum
 
+abstract class Lokasi(val name: String)
+
+class Kota(name: String) : Lokasi(name)
+
+class Asal(name: String) : Lokasi(name)
+
+
+
+package TugasPraktikum
+
 fun main() {
     val lokasi = Lokasi("Antang") //error
     val kota = Kota("Saya tinggal di kota Makassar")
